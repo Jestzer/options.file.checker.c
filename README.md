@@ -2,6 +2,7 @@
 Notes for user:
 - This tool is not created by nor associated with MathWorks.
 - Yes, you need to download .NET 8.0, if you are prompted to do so. If not, you already have it.
+- Supports Windows 8.1 and newer. May work on Windows 7 if you have the latest updates available.
 - Yes, options= isn't technically needed on the DAEMON line, but MathWorks says you should use it.
 - Not all errors can be accounted for. If you're getting an error -38, there isn't a way for this to detect that (or at least, not any good way IMO.)
 - Seat count calculations ignore HOST, GROUP_HOST, INTERNET, PROJECT, and DISPLAY. Multiple people could be coming from these client types, so there's no way to calculate seat count with these.
