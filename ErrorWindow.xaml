@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Options.File.Checker.WPF"
         mc:Ignorable="d"
         Title="Error" Height="250" Width="450"
+        KeyDown="CloseWithEnterKey"
          WindowStyle="None" AllowsTransparency="True" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
     <Border BorderBrush="Gray" BorderThickness="1">
         <Grid>
